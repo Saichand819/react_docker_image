@@ -6,7 +6,6 @@ services:
     image: react-app
     build:
       context: .
-      target: development
     volumes:
       - ./src:/app/src
     ports:
